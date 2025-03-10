@@ -1,0 +1,78 @@
+mark {
+   color: rgb(7, 7, 7);
+
+}
+
+
+ul {
+    color: rgb(39, 37, 37);
+
+}
+
+tr {
+    color: chartreuse;
+}
+
+#principalid {
+    color: darkgreen;
+      
+}
+
+#tituloid {
+    color: red;
+}
+
+/* Estilos gerais para o menu */
+nav {
+   /* background-color: #aa1717; /* Fundo escuro para a barra de navegação */
+
+   padding: 10px 0;
+    text-align: center;
+}
+
+/* Remover o estilo padrão da lista */
+ul {
+    list-style-type: none; /* Remove os marcadores dos itens */
+    margin: 1;
+    padding: 5;
+    font-weight: bold;
+   
+}
+
+/* Estilo para os itens da lista */
+li {
+    color: rgb(233, 225, 225);
+    display: inline-block; /* Exibe os itens lado a lado */
+    margin: 0 75px;
+}
+
+/* Estilo para os links */
+nav a {
+    color: rgb(245, 240, 240);
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease, transform 0.3s ease; /* Efeito de transição */
+}
+
+/* Efeito de hover nos links */
+nav a:hover {
+    color: #574b36; /* Cor de destaque ao passar o mouse */
+    transform: scale(1.1); /* Aumenta o tamanho do link ao passar o mouse */
+}
+body {
+    background-image: url('../imagem/R.jpg'); /* Caminho da imagem de fundo */
+    background-size: cover; /* Faz a imagem cobrir toda a tela */
+    background-position: center center;
+    background-position: center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Faz a imagem ficar fixa enquanto o usuário rola a página */
+    filter: blur(0px); 
+}
+
+#img1id {
+    background-position: center center;
+    display: inline;
+    margin: 0 500px;
+
+
+}
